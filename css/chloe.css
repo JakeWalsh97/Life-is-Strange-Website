@@ -1,0 +1,67 @@
+.intro {
+	width:100%;
+	position:relative;	
+	background: url(../img/chloe.png) no-repeat top center;
+	background-size: cover;
+}
+
+#sloganText {
+    color:#43B1DF;
+    font-size:5em;
+    margin-right:11em;
+}
+
+#about {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/aboutChloe.png');
+    border-bottom:.4em solid white;
+}
+
+.bounceInUp {
+    color:#43B1DF;
+    margin-left:2em;
+}
+
+.img-rounded {
+    border: .10em solid #43B1DF;
+}
+
+#separator {	
+	background-image: url(../img/chloeTraits.jpg);
+}
+
+#gallery {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/chloeGallery.jpg');
+    border-top:.4em solid white;
+}
+
+#footer {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/foot.jpg');
+}
+

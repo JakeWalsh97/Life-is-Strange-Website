@@ -1,0 +1,66 @@
+.intro {
+	width:100%;
+	position:relative;	
+	background: url(../img/max.jpg) no-repeat top center;
+	background-size: cover;
+}
+
+#sloganText {
+    color:#38231A;
+    font-size:5em;
+    margin-left: 7.5em;
+}
+
+#about {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/about.png');
+    border-bottom:.4em solid white;
+}
+
+.bounceInUp {
+    color:#38231A;
+}
+
+.img-rounded {
+    border: .10em solid #38231A;
+}
+
+#separator {	
+	background-image: url(../img/seperator.jpg);
+}
+
+#gallery {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/gallery.jpg');
+    border-top:.4em solid white;
+}
+
+#footer {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/foot.jpg');
+}
+

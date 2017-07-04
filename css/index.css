@@ -1,0 +1,90 @@
+#overview {
+    border:.10em solid white;
+    background-color: #38231A;
+    padding: 1em;
+}
+
+#about {
+    border-top:.4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/overview.jpg');
+}
+
+#services {
+    border-top:.4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/service.jpeg');
+    padding-bottom:12em;
+    border-bottom:.4em solid white;
+}
+
+.servicesTitles {
+    color:white;
+}
+
+.text-muted {
+    padding-top:.5em;
+    padding-bottom:.5em;
+    border-top:.10em solid white;
+    border-bottom:.10em solid white;
+}
+
+.service-box {
+    border: .15em solid white;
+    padding:1em;
+    background-color:black;
+}
+
+.col-sm-6 {
+    border: .10em solid white;
+}
+
+#char {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/characters.jpg');
+    padding-bottom:5em;
+    padding-top:7em;
+}
+
+#names {
+    color:#38231A;
+    font-size:1.8em;
+}
+
+#contact {
+    border-top:.4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/footer.jpg');
+}
