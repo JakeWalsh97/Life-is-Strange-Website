@@ -1,0 +1,98 @@
+.header{
+	background-image: url(../img/arcadiaBackground.jpg);
+	height: 100vh;
+	position: relative;
+	min-height: 659px;
+}
+
+#about {
+    border-top:.4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/arcadiaIntro.png');
+}
+
+#keyLocations {
+	border-top:.4em solid white;
+    border-bottom:.4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/keyLocations.jpg');
+}
+
+.service-box {
+    border: .15em solid white;
+    padding:1em;
+    background-color:black;
+}
+
+.expert .bg-img {
+	background-image: url(../img/arcadiaGif.gif);
+	background-position-x: 100%;
+	height: 100%;
+}
+
+#slid {
+	background-color:black;
+}
+
+.ubutia-quote{
+	background-image: url(../img/quoteImg.png);
+	color: #fff;
+	font-style: italic;
+}
+
+#quote {
+    border-top:.4em solid white;
+    border-bottom:.4em solid white;
+}
+
+#workstation {
+    border-bottom:.4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/otherLocations.jpg');
+}
+
+.ubutia-card-header {
+    border: .15em solid white;
+}
+
+#map {
+    border-bottom:.4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/mapBackground.jpg');
+}
+
+.ubutia-card-map {
+    margin-left: 2.5em;
+}
