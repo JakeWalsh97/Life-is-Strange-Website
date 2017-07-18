@@ -1,0 +1,121 @@
+body {
+    background-color: #101010;
+}
+
+a :hover{
+    color: #43B1DF;
+}
+
+.intro {
+	width:100%;
+	position:relative;	
+	background: url(../img/consequences.jpg) no-repeat top center;
+	background-size: cover;
+}
+
+#services {
+    border-top:.4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/butterflyServices.jpg');
+    padding-bottom:12em;
+    border-bottom:.4em solid white;
+}
+
+#butterflyServ {
+    border-right:.25em solid palevioletred;
+    border-bottom:.25em solid palevioletred;
+}
+
+.fa-4x {
+    border-bottom: .05em solid palevioletred;
+}
+
+#servImg {
+    border: .04em solid palevioletred;
+}
+
+#servHeading {
+    color:#43B1DF;
+}
+
+#servHeading1 {
+    color:red;
+}
+
+#chrysalis {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/keyChoices.png');
+    border-bottom:.4em solid white;
+}
+
+#outOfTime {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/outOfTime.jpg');
+    border-bottom:.4em solid white;
+}
+
+#chaosTheory {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/chaosTheory.jpg');
+    border-bottom:.4em solid white;
+}
+
+#darkRoom {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/darkRoom.jpg');
+    border-bottom:.4em solid white;
+}
+
+#polarized {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/polarized.jpg');
+    border-bottom:.4em solid white;
+}
