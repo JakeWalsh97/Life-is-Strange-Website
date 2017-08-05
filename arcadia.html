@@ -35,7 +35,7 @@
                     <a href="chloe.html"><li>Chloe Price</li></a>
                     <a href="arcadia.html"><li>Arcadia Bay</li></a>
                     <a href="butterfly.html"><li>Butterfly Effect</li></a>
-                    <audio autoplay controls loop id="audio" style="margin-top:.75em"><source src="music/mud flow.mp3" type="audio/mpeg"></audio>
+                    <audio controls loop id="audio" onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 2000)" style="margin-top:.75em"><source src="music/mud flow.mp3" type="audio/mpeg"></audio>
                     <a href="#"><li>-</li></a>
                 </ul>
             </div>
@@ -281,5 +281,14 @@
         <script src="assets/js/owl.carousel.min.js"></script>
         <script src="assets/js/jquery.magnific-popup.js"></script>
         <script src="assets/js/script.js"></script>
+
+        <script>
+    window.onload = function() {
+    var backgroundAudio=document.getElementById("audio");
+    backgroundAudio.volume=0.15;
+    }
+
+    </script>
+    
     </body>
 </html>

@@ -51,7 +51,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <audio autoplay controls loop id="audio" style="margin-top:.75em"><source src="music/homepage.mp3" type="audio/mpeg"></audio>
+                        <audio controls loop id="audio" onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 2000)" style="margin-top:.75em"><source src="music/homepage.mp3" type="audio/mpeg"></audio>
                     </li>
                     <li>
                         <a class="page-scroll" href="max.html" style="color:#38231A">Max Caulfield</a>
@@ -323,6 +323,14 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
+
+    <script>
+    window.onload = function() {
+    var backgroundAudio=document.getElementById("audio");
+    backgroundAudio.volume=0.15;
+    }
+
+    </script>
 
 </body>
 

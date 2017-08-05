@@ -33,7 +33,7 @@
 	<!-- Section: intro -->
     <section id="intro" class="intro">
 		<div class="slogan">
-			<audio autoplay controls loop id="audio" style="margin-left:37.5em"><source src="music/max.mp3" type="audio/mpeg"></audio>
+			<audio controls loop id="audio" onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 2000)" style="margin-left:37.5em"><source src="music/max.mp3" type="audio/mpeg"></audio>
 			<p id="sloganText" class="wow bounceInRight" data-wow-delay="0.2s"><b>Max Caulfield</b></p>
 		</div>
 		<div class="page-scroll">
@@ -237,6 +237,14 @@
 	<script src="js/nivo-lightbox.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/custom.js"></script>
+
+	<script>
+    window.onload = function() {
+    var backgroundAudio=document.getElementById("audio");
+    backgroundAudio.volume=0.15;
+    }
+
+    </script>
 
 </body>
 
