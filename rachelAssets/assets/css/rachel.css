@@ -1,0 +1,125 @@
+#headerwrap {
+	background: url(../img/quote.jpg) no-repeat center top;
+	position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#intro {
+	background: url(../img/intro.jpg) no-repeat center top;
+    border-top:.4em solid white;
+	position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#info{
+    border:.10em solid white;
+    background-color:black;
+    padding:1em;
+}
+
+#info2{
+    border:.10em solid white;
+    background-color:darkorange;
+    padding:1em;
+}
+
+#info3{
+    border:.10em solid white;
+    background-color:darkgreen;
+    padding:1em;
+}
+
+#introGif {
+    border:.10em solid white;
+}
+
+#cta01 {
+	background: url(../img/logo.png) no-repeat center top;
+    border-top:.4em solid white;
+	position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#gallery {
+	background: url(../img/gallery.jpg) no-repeat center top;
+    border-top:.4em solid white;
+	position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#galleryImg {
+    border:.10em solid white;
+}
+
+#grey {
+    background: url(../img/junk.jpg) no-repeat center top;
+    border-top:.4em solid white;
+	position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#black {
+    background: url(../img/lis1quote.jpg) no-repeat center top;
+    border-top:.4em solid white;
+	position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.footer {
+    border-top: .4em solid white;
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 99%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom:40em;
+    margin-left:.825em;
+    background-image: url('../img/moon.gif');
+}
